@@ -13,6 +13,9 @@ Run the following commands in a terminal on Mac or Linux to create the docker en
 docker build -t geotrellis-almond docker
 docker run --rm -it -p 8888:8888 -p 4040:4040 geotrellis-almond
 ```
+
+Alternatively, you can simply use the script `run.sh`
+
 If you are using your local ports 8888 or 4040, adjust the `-p` arguments to the above to be, e.g., `-p 9999:8888` to redirect the container's internal port 8888 to your local machine's port 9999.
 
 Upon running the above, a Jupyter splash screen will display in the terminal, and somewhere in that text, you will see a URL of the form
