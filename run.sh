@@ -17,4 +17,4 @@ fi
 docker run --rm -it \
     -p 8888:8888 \
     -p 4040:4040 \
-    -v $(pwd)/work:/home/jovyan/work geotrellis-almond
+    -v $(pwd)/notebooks:/home/jovyan/workshop geotrellis-almond
